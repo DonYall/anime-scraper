@@ -68,8 +68,4 @@ public class AnimeScraper {
 			return ("An error occured.");
 		}
 	}
-	
-	public static void main(String[] args) {
-		System.out.println(getStreamUrl(getEpisodeId(getAnimeId("demon"), 1)));
-	}
 }
